@@ -1,0 +1,24 @@
+[
+  {
+    "card_id": "jp-sv4a-056",
+    "name": "ピカチュウ",
+    "model_number": "sv4a-056/190",
+    "package_name": "シャイニートレジャーex",
+    "set_code": "sv4a",
+    "card_number": "056/190",
+    "rarity": "AR",
+    "language": "ja",
+    "release_year": 2024
+  },
+  {
+    "card_id": "jp-sv2a-172",
+    "name": "ミュウex",
+    "model_number": "sv2a-172/165",
+    "package_name": "ポケモンカード151",
+    "set_code": "sv2a",
+    "card_number": "172/165",
+    "rarity": "SR",
+    "language": "ja",
+    "release_year": 2023
+  }
+]

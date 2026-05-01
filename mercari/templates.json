@@ -1,0 +1,6 @@
+{
+  "default": {
+    "title": "{card_name} {set_code} {card_number} {rarity}",
+    "description": "【商品名】\\n{card_name}\\n\\n【型番】\\n{model_number}\\n\\n【収録パック】\\n{package_name}\\n\\n【レアリティ】\\n{rarity}"
+  }
+}
