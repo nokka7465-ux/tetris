@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+config/user_settings.json
+data/weekly_trends.json
+data/inbox/
+data/listings_batch.csv
+.env
+*.log

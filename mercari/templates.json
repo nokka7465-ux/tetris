@@ -1,6 +1,34 @@
 {
-  "default": {
-    "title": "{card_name} {set_code} {card_number} {rarity}",
-    "description": "【商品名】\\n{card_name}\\n\\n【型番】\\n{model_number}\\n\\n【収録パック】\\n{package_name}\\n\\n【レアリティ】\\n{rarity}"
-  }
+  "title": "{name} {rarity} {set_code} {card_number} {package_name}",
+  "title_fallback": "{name} {set_code} {card_number}",
+  "header": "■ {name}（{rarity}）\n■ パック: {package_name}\n■ 型番: {model_number}",
+  "rarity_body": {
+    "SR":  "コレクション用にもおすすめの1枚です。美品・状態良好を厳選しています。",
+    "SAR": "コレクション人気の高いSAR。飾っても映える1枚です。",
+    "AR":  "イラスト人気の高いAR。コレクション需要のある1枚です。",
+    "UR":  "デッキ強化にもおすすめ。光り方が美しい1枚です。",
+    "HR":  "輝きの強いHR。コレクションに映える1枚です。",
+    "RRR": "迫力あるRRR。デッキ・コレクションどちらにも。",
+    "RR":  "デッキ強化にもおすすめのRR。",
+    "default": "ご検討よろしくお願いします。"
+  },
+  "variant_body": {
+    "masterball_mirror": "★マスターボール柄ミラー仕様★ 通常版とは異なる希少なホロパターンです。コレクションにぜひ。",
+    "pokeball_mirror":   "★モンスターボール柄ミラー仕様★ 通常版と差し替え可能なホロパターンの1枚です。",
+    "standard": ""
+  },
+  "variant_title_tag": {
+    "masterball_mirror": "マスボミラー",
+    "pokeball_mirror":   "モンボミラー",
+    "standard": ""
+  },
+  "condition_label_map": {
+    "mint":       "美品（目立った傷や汚れなし）",
+    "near_mint":  "ほぼ美品（軽微な使用感あり）",
+    "excellent":  "目立つ傷なし（プレイ用に十分）",
+    "played":     "プレイ用（傷や白かけあり）"
+  },
+  "weekly_trend_prefix": "■ 今週のひとこと\n",
+  "smoking_text_map":  {"yes": "喫煙環境です。", "no": "非喫煙環境です。"},
+  "pets_text_map":     {"yes": "ペットあり。", "no": "ペットなし。"}
 }
